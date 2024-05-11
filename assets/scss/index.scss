@@ -1,0 +1,12 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+text-decoration: none;
+user-select: none;
+}
+
+@import "./block/block";
+@import "./fonts";
+@import "./normalize";
