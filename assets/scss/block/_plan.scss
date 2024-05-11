@@ -1,0 +1,176 @@
+.plan-boxes:hover {
+    border: 2px solid #F53838;
+    cursor: pointer;
+}
+.that-br{
+display: none;
+}
+.plan-boxes button:hover {
+    background-color: #f53838;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.plan {
+    background: linear-gradient(180deg, #F7F7F7, #fff);
+
+
+    h1 {
+        font-family: Rubik-Medium;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 143%;
+        text-align: center;
+        color: #0b132a;
+        padding-top: 80px;
+    }
+
+    h3 {
+        font-family: Rubik-Regular;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        text-align: center;
+        color: #4f5665;
+    }
+
+    &-box {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+
+    &-boxes {
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        width: 330px;
+        height: 760px;
+
+        span img {
+            display: flex;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+
+        h6 {
+            font-family: Rubik-Medium;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 167%;
+            text-align: center;
+            color: #0b132a;
+            padding-top: 30px;
+        }
+
+        button {
+            padding: 13px 63px;
+            border: 2px solid #f53838;
+            border-radius: 50px;
+            background-color: transparent;
+            font-family: Rubik-Bold;
+            font-weight: 700;
+            font-size: 16px;
+            color: #f53838;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+
+    &-mark {
+        background-color: transparent;
+        font-weight: 400;
+        color: #4f5665;
+    }
+
+    &-check {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 30px;
+        padding-left: 69px;
+
+        i {
+            color: #2FAB73;
+        }
+
+        p {
+            font-family: Rubik-Regular;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 214%;
+            color: #4f5665;
+        }
+
+    }
+
+    &-check-one {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 10px;
+        padding-left: 69px;
+
+        i {
+            color: #2FAB73;
+        }
+
+        p {
+            font-family: Rubik-Regular;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 214%;
+            color: #4f5665;
+        }
+    }
+
+    &-free {
+        font-family: Rubik-Medium;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+        color: #0b132a;
+        padding-top: 130px;
+
+        &-one {
+            font-family: Rubik-Medium;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 120%;
+            text-align: center;
+            color: #0b132a;
+            padding-top: 90px;
+        }
+
+        &-two {
+            font-family: Rubik-Medium;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 120%;
+            text-align: center;
+            color: #0b132a;
+            padding-top: 50px;
+        }
+    }
+}
+
+@media (max-width:1050px) {
+    .plan {
+        &-box {
+            display: block;
+
+            &-res {
+                display: flex;
+                justify-content: center;
+                padding-top: 50px;
+            }
+        }
+    }
+}
+@media (max-width:400px) {
+    .that-br{
+    display: block;
+    }
+}
